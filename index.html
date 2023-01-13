@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de vida</title>
+    <link href="https://fonts.google.com/?selection.family=Baloo+Tamma+2|Monserrat" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<style>
+    body {
+    margin: 0;
+    padding: 0;
+    background: #065143 ;
+}
+
+.nombre {
+    width: 100%;
+    height: 300px;
+    background: #129490;
+    transform: skewY(-4deg) ;
+}
+
+.nombre .content {
+    width: 50%; 
+    height: 50%;
+    position: absolute;
+    left: 25%;
+}
+
+.nombre .content .Parrafo1 {
+    color: #020113;
+    font-family: 'Baloo Tamma 2', sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+    transform: skewY(5deg);
+    margin-bottom: 0;
+}
+
+.nombre .content .Parrafo2 {
+    color: #010a0f;
+    font-family: 'Baloo Tamma 2', sans-serif;
+    font-size: 30px;
+    transform: skewY(5deg);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.nombre .img {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skewY(5deg);
+    overflow: hidden;
+}
+.informacionbasica .img img {
+    width: 180px;
+    height: 320px;
+}
+
+.informacionbasica {
+    width: 90%;
+    height: auto;
+    background: #70B77E;
+    margin:5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.informacionbasica .tituloseccion {
+    color: #CE1483;
+    font-family: 'Baloo Tamma 2', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #CE1483 solid;
+}
+
+.informacionbasica .tituloInfo {
+    color: #CE1483 ;
+    font-family: 'Baloo Tamma 2', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+.informacionbasica .Informacion {
+    color: #CE1483 ;
+    font-family: 'Baloo Tamma 2', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
+.informacionbasica .infoinfo {
+    color: #CE1483 ;
+    font-family: 'Baloo Tamma 2', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+.informacionbasica span {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding-left: 1%;
+    padding: 1%;
+    background: #CE1483;
+    color: #0f0d0e;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+</style>
+
+<body>
+    <div class="nombre">
+        <div class='img'>
+            <img src="HV.png" alt="">
+
+        </div>
+        <div class="content"> 
+            <P class="Parrafo1">Juan Sebastian Sanchéz Moreno</P>
+            <p class="Parrafo2">18 años, Técnico en sistemas</p>
+        </div>
+    </div>
+
+    <div class="informacionbasica">
+        <p class="tituloseccion">Información Personal</p>
+        <p class="tituloInfo">Nombres y Apellidos:</p>
+        <p class="informacion">Juan Sebastian Sanchez Moreno</p><br>
+        <p class="infoinfo">Telefono:</p>
+        <p class="informacion">3117685490</p><br>
+        <p class="tituloInfo">correo electronico:</p>
+        <p class="informacion">sebastiansanchezmor@gmail.com.co</p><br>
+    </div>
+
+    <div class="informacionbasica">
+        <p class="tituloseccion">Educacion</p>
+        <p class="tituloInfo">Primaria</p>
+        <p class="informacion">Colegio Colombia Viva I.E.D</p>
+        <p class="informacion">Diana Turbay I.E.D</p>
+        <p class="tituloInfo">Bachillerato</p>
+        <p class="informacion">Bravo Paez I.E.D</p>
+
+    </div>
+    <div class="informacionbasica">
+        <p class="tituloseccion">Aptitudes y pasatiempos</p>
+        <p class="tituloInfo">Aptitudes:</p>
+        <span> Proactivo </span>
+        <span> Disciplinado </span> 
+        <span> Creativo </span><br>
+        <p class="tituloInfo">Pasatiempos:</p>
+        <span>Jugar futbol</span>
+        <span>Jugar videojuegos</span>
+</body>
+<footer>
+   Elaborado el 10/01/2023 
+</footer>
+</html>
